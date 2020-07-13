@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig01.deviantart.net%2Fc818%2Ff%2F2012%2F164%2Fc%2F3%2Fdiablo_3_login_screen_wallpaper_by_arixev-d53bm2u.jpg&f=1&nofb=1);/* #f7f8fc; */
+  color: #141c2c;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.backButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #273349;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  color: green;
+}
+
+.container {
+  display: flex;
+  background-color: rgba(172, 160, 144, 0.76);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.demonhunter {
+  display: block;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px 10px;
+  background-color: rgb(138, 110, 96);
+}
+
+table {
+  height: 100%;
+  background-color: rgb(138, 110, 96);
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 5px 5px 0;
+}
+
+td {
+  padding: 5px 5px;
+}
+
+tbody tr td:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+tbody tr td:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+tr {
+  background-color: rgb(66, 55, 49);
+}
+
+table tbody tr:hover {
+  background-color: rgb(54, 45, 40);
+}
+
+  /* Diablo 3 Items */
+.leg {
+  color: #bf642f;
+  text-decoration: none;
+}
+
+.set {
+  color: #8bd442;
+  text-decoration: none;
+}
+
+.gem img {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+}

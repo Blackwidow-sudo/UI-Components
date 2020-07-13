@@ -136,6 +136,27 @@ input:not([type='checkbox']) {
   margin: 5px 0;
 }
 
+.backButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #273349;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  color: green;
+}
+
 @media(max-width: 768px) {
   .container {
     flex-direction: column;

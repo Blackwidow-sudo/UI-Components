@@ -30,10 +30,12 @@ body {
   font-size: 36px;
   margin: 2px 2px;
   cursor: pointer;
+  transition: transform 300ms;
 }
 
 .backButton:hover {
   color: green;
+  transform: scale(1.1);
 }
 
 .container {
@@ -75,11 +77,11 @@ tbody tr td:last-of-type {
 }
 
 tr {
-  background-color: rgb(66, 55, 49);
+  background-color: rgb(37, 37, 37);
 }
 
-table tbody tr:hover {
-  background-color: rgb(54, 45, 40);
+tr:hover {
+  background-color: rgba(37, 37, 37, 0.753);
 }
 
   /* Diablo 3 Items */

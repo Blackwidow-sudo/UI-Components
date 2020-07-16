@@ -114,10 +114,12 @@ table tbody tr:hover .delete {
   font-size: 36px;
   margin: 2px 2px;
   cursor: pointer;
+  transition: transform 300ms;
 }
 
 .backButton:hover {
   color: green;
+  transform: scale(1.1);
 }
 
 @media(max-width: 768px) {
